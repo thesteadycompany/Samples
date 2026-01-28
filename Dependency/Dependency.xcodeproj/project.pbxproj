@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3454C70D2F2A238600ECFD5F /* SimpleDependency in Frameworks */ = {isa = PBXBuildFile; productRef = 3454C70C2F2A238600ECFD5F /* SimpleDependency */; };
 		3454C7562F2A26A700ECFD5F /* ContainerDependency in Frameworks */ = {isa = PBXBuildFile; productRef = 3454C7552F2A26A700ECFD5F /* ContainerDependency */; };
+		3454C75C2F2A2CD700ECFD5F /* ProtocolDependency in Frameworks */ = {isa = PBXBuildFile; productRef = 3454C75B2F2A2CD700ECFD5F /* ProtocolDependency */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3454C70D2F2A238600ECFD5F /* SimpleDependency in Frameworks */,
+				3454C75C2F2A2CD700ECFD5F /* ProtocolDependency in Frameworks */,
 				3454C7562F2A26A700ECFD5F /* ContainerDependency in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +113,7 @@
 			packageProductDependencies = (
 				3454C70C2F2A238600ECFD5F /* SimpleDependency */,
 				3454C7552F2A26A700ECFD5F /* ContainerDependency */,
+				3454C75B2F2A2CD700ECFD5F /* ProtocolDependency */,
 			);
 			productName = Dependency;
 			productReference = 3454C6E42F2A1CDC00ECFD5F /* Dependency.app */;
@@ -488,6 +491,10 @@
 		3454C7552F2A26A700ECFD5F /* ContainerDependency */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ContainerDependency;
+		};
+		3454C75B2F2A2CD700ECFD5F /* ProtocolDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProtocolDependency;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

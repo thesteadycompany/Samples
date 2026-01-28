@@ -8,7 +8,7 @@ struct ContainerDependencyView: View {
   
   var body: some View {
     VStack(alignment: .leading, spacing: 16) {
-      Text("SimpleDependency")
+      Text("ContainerDependency")
         .font(.title2)
         .bold()
       

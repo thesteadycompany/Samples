@@ -11,6 +11,10 @@ let package = Package(
       targets: ["ContainerDependency"]
     ),
     .library(
+      name: "ProtocolDependency",
+      targets: ["ProtocolDependency"]
+    ),
+    .library(
       name: "SimpleDependency",
       targets: ["SimpleDependency"]
     ),
@@ -18,6 +22,9 @@ let package = Package(
   targets: [
     .target(
       name: "ContainerDependency"
+    ),
+    .target(
+      name: "ProtocolDependency"
     ),
     .target(
       name: "SimpleDependency"

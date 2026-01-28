@@ -7,6 +7,7 @@ struct DependencyApp: App {
       ScrollView {
         SimpleDependencyView()
         ContainerDependencyView()
+        ProtocolDependencyView()
       }
     }
   }
